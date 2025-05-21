@@ -5,6 +5,19 @@
 
 A modern, secure uploader for Globomantics schematic assets. Built for speed, reliability, and developer delight.
 
+---
+
+## Pluralsight Demo: GitHub Secret Scanning, Push Protection, and Alert Management
+
+**In this demo, you'll:**
+- Test GitHub push protection (preventing secrets from being pushed)
+- Trigger and manage secret scanning alerts
+- Practice alert remediation and workflow
+
+This repository is intentionally designed for hands-on learning with GitHub Advanced Security features.
+
+---
+
 ## Features
 
 - File upload (schematic/diagnostic files)
@@ -39,12 +52,14 @@ You can add or remove these as needed for your demos. After testing, be sure to 
    ```
 5. Visit [http://localhost:3002](http://localhost:3002)
 
-## Demo: Secret Scanning
+## Demo: Secret Scanning, Push Protection, and Alert Management
 
 - This repo contains fake secrets in:
   - `index.js` (GitHub PAT, cloud API key)
   - `.env.example` (DEMO_SECRET)
   - App logs (see `app.log` after uploading a file)
+- **Push Protection:** Try committing a new fake secret and pushing to GitHub. Observe how push protection blocks the push and provides remediation steps.
+- **Alert Management:** After a secret is detected, use the GitHub UI to view, resolve, or dismiss the alert. Practice the full alert management workflow.
 - Use GitHub Advanced Security (GHAS) or the GitHub web UI to scan for secrets.
 - Try leaking a secret in a commit, then use `git filter-repo` or `BFG` to scrub it and re-scan.
 
