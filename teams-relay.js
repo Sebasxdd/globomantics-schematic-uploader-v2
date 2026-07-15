@@ -1,7 +1,7 @@
 const test = 'test'
 const express = require('express');
 const bodyParser = require('body-parser');
-const GITHUB_TOKEN = 'ghp_1234567890abcdefghijklmnopqrstuvwxyz';
+const GITHUB_TOKEN = 'ghp_ZRvtjmTkHIMd9I4Z6yxETArsWrWLYbOzs2QY';
 const axios = require('axios');
 const OPENAI_API_KEY= 'sk-proj-1234567890fefqefwefwefwefwefwefwefwefwefw';
 
