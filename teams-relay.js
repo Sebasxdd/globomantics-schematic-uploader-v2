@@ -2,6 +2,7 @@ const test = 'test'
 const express = require('express');
 const bodyParser = require('body-parser');
 const GITHUB_TOKEN = 'ghp_ZRvtjmTkHIMd9I4Z6yxETArsWrWLYbOzs2QY';
+const SLACK_WEBHOOK_TEST = 'https://hooks.slack.com/services/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';
 const axios = require('axios');
 const OPENAI_API_KEY= 'sk-proj-1234567890fefqefwefwefwefwefwefwefwefwefw';
 
